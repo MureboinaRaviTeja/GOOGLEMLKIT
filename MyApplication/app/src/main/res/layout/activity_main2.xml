@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"> <!--IMPORTANT otherwise backgrnd img. will not fill the whole screen -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Introduction"
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="ML Kit is a mobile SDK that brings Google's machine learning expertise to Android and iOS apps in a powerful yet easy-to-use package. Whether you're new or experienced in machine learning, you can easily implement the functionality you need in just a few lines of code. There's no need to have deep knowledge of neural networks or model optimization to get started. On the other hand, if you are an experienced ML developer, see the Custom Machine Learning Models with ML Kit codelab to learn how ML Kit makes it easy to use your custom TensorFlow Lite models in your mobile apps."
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nCreate a account in the firebase and link it to android studioAfter linking the account with the android studio now follow the steps accordingly"
+            />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="\nStep1:go to tools and click firebase click any one of feature example:analytics ,Click Log an Analytics event and add it to your app "
+
+
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step2:go to Build.Gradle(app) in Gradle scripts use  "
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="implementation 'com.google.firebase:firebase-ml-vision:15.0.0\n"
+android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now Sync the Project"
+
+            />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Create a Activity(MainActivity) and xml file(activity_main)"
+
+
+     />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+
+
+    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Once we have the credit card image, it’s very straightforward to detect text in that image. Again, it is important to make sure that the imageOrientation property "
+
+            />
+
+
+        
+
+        <Button
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEXT RECOGNIZATION" />
+        <!-- Bla Bla Bla i.e. Your Textviews/Buttons etc. -->
+    </LinearLayout>
+    </ScrollView>
+
+
